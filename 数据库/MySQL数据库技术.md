@@ -7,17 +7,21 @@
 - 连接到mysql之后，首先要创建数据库
 - 用鼠标右键选择新建数据库
 
-![image-20250430163417792](E:\TyporaPages\image-20250430163417792.png)
+<img width="741" height="477" alt="image-20250430163417792" src="https://github.com/user-attachments/assets/7258b2d3-1a35-4f5c-9645-323069ed4ec8" />
+
 
 - 打开数据库，新建查询
 
-![image-20250430163620791](E:\TyporaPages\image-20250430163620791.png)
+<img width="962" height="637" alt="image-20250430163620791" src="https://github.com/user-attachments/assets/0aa480d5-c274-4efd-b7dd-26ffc6984eb3" />
 
-![image-20250430163745304](E:\TyporaPages\image-20250430163745304.png)
+
+<img width="737" height="491" alt="image-20250430163745304" src="https://github.com/user-attachments/assets/f257d31f-67b5-45af-9df2-459c50e1908c" />
+
 
 - 看到如下结果，代表navicat连接mysql设置成功
 
-![image-20250430164054429](E:\TyporaPages\image-20250430164054429.png)
+<img width="346" height="195" alt="image-20250430164054429" src="https://github.com/user-attachments/assets/d3db60b4-5f97-4cdd-99a7-ffadbbd38fd5" />
+
 
 # 2.sql语言中的注释
 
@@ -1062,6 +1066,7 @@ create database mytest dafault charset utf8;
 drop database mytest;
 drop database if exists mytest;
 ```
+
 
 
 
