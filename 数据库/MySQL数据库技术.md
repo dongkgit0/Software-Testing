@@ -27,15 +27,19 @@
 
 - 多行注释
 
-![image-20250430171616379](E:\TyporaPages\image-20250430171616379.png)
+<img width="787" height="277" alt="image-20250430171616379" src="https://github.com/user-attachments/assets/700cc102-c701-4afb-ad0e-ee05c14006a8" />
+
+
 
 - 看到如下结果，则说明该行被注释
 
-![image-20250430171819679](E:\TyporaPages\image-20250430171819679.png)
+<img width="602" height="220" alt="image-20250430171819679" src="https://github.com/user-attachments/assets/13e02a47-3665-4a04-b617-5f2e9f1eabae" />
+
 
 # 3.mysql的常用数据类型
 
-![image-20250430172048892](E:\TyporaPages\image-20250430172048892.png)
+<img width="783" height="535" alt="image-20250430172048892" src="https://github.com/user-attachments/assets/10e4dda3-3053-49a5-9d93-498f1c70937a" />
+
 
 # 4.数据库中的元素
 
@@ -212,7 +216,8 @@ delete from c where id < 3;
 truncate table c;
 ```
 
-![image-20250503113850087](E:\TyporaPages\image-20250503113850087.png)
+<img width="917" height="281" alt="image-20250503113850087" src="https://github.com/user-attachments/assets/59dc2ca2-ac50-415c-809e-1689046485fa" />
+
 
 # 12.增删改查小结
 
@@ -249,7 +254,8 @@ DROP table if exists b;
 
 # 14.字段的约束
 
-![image-20250503115146516](E:\TyporaPages\image-20250503115146516.png)
+<img width="782" height="561" alt="image-20250503115146516" src="https://github.com/user-attachments/assets/66d95b15-56cc-471c-95a2-0f85327452a5" />
+
 
 # 15.主键
 
@@ -331,14 +337,16 @@ create table 表名(
 - as可以省略
 - 字段名 as 别名 和字段名 别名 结果是一样的
 
-![image-20250503214151506](E:\TyporaPages\image-20250503214151506.png)
+<img width="675" height="156" alt="image-20250503214151506" src="https://github.com/user-attachments/assets/159b00fe-0b88-4ea7-9214-0b1bc63964b3" />
+
 
 # 20.表的别名
 
 - 通过 表名 as 别名 给表起一个别名
 - as可以省略
 
-![image-20250503214400067](E:\TyporaPages\image-20250503214400067.png)
+<img width="391" height="150" alt="image-20250503214400067" src="https://github.com/user-attachments/assets/0fc1483e-961f-4ffb-b918-dd5a7b4284d3" />
+
 
 # 21.distinct过滤重复记录
 
@@ -368,7 +376,8 @@ select name, class from students where age = 30;
 
 # 24.比较运算符
 
-![image-20250503221838444](E:\TyporaPages\image-20250503221838444.png)
+<img width="767" height="227" alt="image-20250503221838444" src="https://github.com/user-attachments/assets/a9add88d-f614-41a4-a199-d9be474fc310" />
+
 
 # 25.逻辑运算符
 
@@ -666,17 +675,19 @@ select *from students limit 4, 4;
 - 内连接
 	- 把两张表相同的地方查询出来
 
-![image-20250507105831676](E:\TyporaPages\image-20250507105831676.png)
+<img width="742" height="177" alt="image-20250507105831676" src="https://github.com/user-attachments/assets/8b992955-9e6a-4e3b-a1cf-c5ba3eac24cb" />
 
 - 左连接
 	- 包括了内连接，同时还查询左表特有的内容
 
-![image-20250507110626517](E:\TyporaPages\image-20250507110626517.png)
+<img width="845" height="195" alt="image-20250507110626517" src="https://github.com/user-attachments/assets/74a901c4-18ec-40f3-964a-12f25ec9a93c" />
+
 
 - 右连接
 	- 包括了内连接，同时还查询右表特有的内容
 
-![image-20250507110835157](E:\TyporaPages\image-20250507110835157.png)
+<img width="753" height="200" alt="image-20250507110835157" src="https://github.com/user-attachments/assets/6c413c5b-8fa3-4087-bf35-c7cc47bdc2eb" />
+
 
 # 39.内连接
 
@@ -1066,6 +1077,7 @@ create database mytest dafault charset utf8;
 drop database mytest;
 drop database if exists mytest;
 ```
+
 
 
 
