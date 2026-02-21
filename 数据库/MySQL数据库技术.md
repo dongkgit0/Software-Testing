@@ -2,7 +2,7 @@
 
 - 连接mysql
 
-	![image-20250430162902731](E:\TyporaPages\image-20250430162902731.png)
+	<img width="791" height="636" alt="image-20250430162902731" src="https://github.com/user-attachments/assets/ea9a855a-8a49-4126-96d1-1a5709998586" />
 
 - 连接到mysql之后，首先要创建数据库
 - 用鼠标右键选择新建数据库
@@ -1062,6 +1062,7 @@ create database mytest dafault charset utf8;
 drop database mytest;
 drop database if exists mytest;
 ```
+
 
 
 
