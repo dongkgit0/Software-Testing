@@ -699,7 +699,8 @@ select *from students limit 4, 4;
 SELECT * from a INNER JOIN b on a.id = b.id;
 ```
 
-![image-20250507113656244](E:\TyporaPages\image-20250507113656244.png)
+<img width="957" height="446" alt="image-20250507113656244" src="https://github.com/user-attachments/assets/8bde1995-ddfe-41a4-be76-471b6dca2428" />
+
 
 - 隐式连接语法
 	- 语法：select *from 表1，表2 where 两个表的连接条件
@@ -739,7 +740,8 @@ select name, score from students s1 INNER JOIN scores s2 on s1.studentNo = s2.st
 
 - 多表内连接
 
-![image-20250507152013381](E:\TyporaPages\image-20250507152013381.png)
+<img width="935" height="162" alt="image-20250507152013381" src="https://github.com/user-attachments/assets/738ee380-6b22-4ccb-b41c-3076a7d5d5b9" />
+
 
 # 40.写SQL三步法
 
@@ -752,7 +754,8 @@ select name, score from students s1 INNER JOIN scores s2 on s1.studentNo = s2.st
 - 显示的字段
 	- select后面到底要显示什么字段
 
-![image-20250507152744802](E:\TyporaPages\image-20250507152744802.png)
+<img width="926" height="428" alt="image-20250507152744802" src="https://github.com/user-attachments/assets/6e58e0cf-1e5d-4eba-a7cc-c44bd16ddd27" />
+
 
 # 41.左连接
 
@@ -778,11 +781,13 @@ SELECT *from scores RIGHT JOIN courses ON scores.courseNo = courses.courseNo;
 
 - 如果一条select要用到多个表，表中有同名字段，就需要表名，字段名加以区分
 
-![image-20250507175047885](E:\TyporaPages\image-20250507175047885.png)
+<img width="991" height="132" alt="image-20250507175047885" src="https://github.com/user-attachments/assets/ed75015d-8250-46ea-8f77-eafbdbc3e3ff" />
+
 
 # 44.自关联
 
-![image-20250507175649060](E:\TyporaPages\image-20250507175649060.png)
+<img width="945" height="203" alt="image-20250507175649060" src="https://github.com/user-attachments/assets/fffb9a46-ae12-40e0-919c-50c9043f74cd" />
+
 
 - 自关联，是同一张表做连接查询
 
@@ -809,13 +814,15 @@ SELECT *from students where age > (SELECT avg(age) from students);
 
 - 标量子查询------子查询返回结果只有一行，一列
 
-![image-20250507181033496](E:\TyporaPages\image-20250507181033496.png)
+<img width="726" height="277" alt="image-20250507181033496" src="https://github.com/user-attachments/assets/2a8f952a-5c07-450e-9c5b-5938fb7f4d88" />
+
 
 - 列子查询----------子查询返回一列多行
 
 - 表级子查询----------子查询返回结果为多行，多列
 
-![image-20250507181406991](E:\TyporaPages\image-20250507181406991.png)
+
+<img width="647" height="241" alt="image-20250507181406991" src="https://github.com/user-attachments/assets/08d99588-f4dc-41c8-aa03-8a541b01f91c" />
 
 # 46.contact拼接字符串函数
 
@@ -831,7 +838,8 @@ select contact(12, 34, 'ab');
 
 - 一个utf8格式的汉字，length也返回3
 
-![image-20250507182549335](E:\TyporaPages\image-20250507182549335.png)
+<img width="677" height="313" alt="image-20250507182549335" src="https://github.com/user-attachments/assets/149ee8b3-8a7a-4835-a4f0-86f78cfcdfe5" />
+
 
 # 48.mysql内置函数可以在where条件后使用
 
@@ -844,14 +852,15 @@ SELECT *from students where length(name) = 9;
 - left(字符串, n)
 	- n代表从字符串左侧截取n个字符
 
-![image-20250507183140722](E:\TyporaPages\image-20250507183140722.png)
+<img width="457" height="231" alt="image-20250507183140722" src="https://github.com/user-attachments/assets/d24c876f-57ed-4ef1-87f6-9e7d3d8b620c" />
+
 
 # 50.right从字符串右侧截取指定数量字符
 
 - right(字符串, n)
 	- n代表从字符串右侧截取n个字符
-
-![image-20250507183421569](E:\TyporaPages\image-20250507183421569.png)
+ - 
+<img width="470" height="143" alt="image-20250507183421569" src="https://github.com/user-attachments/assets/6ffcb0d0-1e0d-49ba-878c-5b3ad1547a20" />
 
 # 51.substring从字符串指定位置截取指定数量字符
 
@@ -859,11 +868,13 @@ SELECT *from students where length(name) = 9;
 	- 起始位置从1开始
 	- n代表截取的数量
 
-![image-20250507183708359](E:\TyporaPages\image-20250507183708359.png)
+<img width="563" height="262" alt="image-20250507183708359" src="https://github.com/user-attachments/assets/a94660bd-3e7e-40ab-8565-23fe9efddf8e" />
+
 
 # 52.内置函数可以用在select显示的字段名中
 
-![image-20250507183841910](E:\TyporaPages\image-20250507183841910.png)
+<img width="507" height="143" alt="image-20250507183841910" src="https://github.com/user-attachments/assets/6b81f4ac-8453-4662-93ac-d9b9976c8154" />
+
 
 # 53.Itrim去除字符串左侧空格
 
@@ -899,7 +910,8 @@ SELECT trim('    abcd    ');
 - round(数字, d)
 	- d代表要保留的小数位，省略d默认为0
 
-![image-20250507185107299](E:\TyporaPages\image-20250507185107299.png)
+<img width="402" height="202" alt="image-20250507185107299" src="https://github.com/user-attachments/assets/960bb972-b1d2-4088-a765-a4fbd08a9e00" />
+
 
 # 57.rand随机数
 
@@ -939,14 +951,16 @@ select cuurent_date();
 
 # 61.存储过程
 
-![image-20250507191251417](E:\TyporaPages\image-20250507191251417.png)
+<img width="580" height="333" alt="image-20250507191251417" src="https://github.com/user-attachments/assets/cbe11954-4506-4739-8fca-f0e016689b52" />
+
 
 # 62.视图
 
 - 视图就是对select语句的封装
 - 视图可以理解为一张只读的表，针对视图只能用select，不能用delete和update
 
-![image-20250507191943472](E:\TyporaPages\image-20250507191943472.png)
+<img width="497" height="342" alt="image-20250507191943472" src="https://github.com/user-attachments/assets/95858252-c924-4aa7-b181-cb335f8fb5b3" />
+
 
 # 63.事务
 
@@ -962,13 +976,15 @@ select cuurent_date();
 
 ## 回滚事务的操作
 
-![image-20250507192452260](E:\TyporaPages\image-20250507192452260.png)
+<img width="590" height="395" alt="image-20250507192452260" src="https://github.com/user-attachments/assets/959db890-8fb8-4dde-adfc-c22d7701a6e0" />
+
 
 如果开始了一个事务，执行了begin，之后，没有rollback，也没有commit，中间系统出问题了，默认会执行rollback
 
 ## 提交事务
 
-![image-20250507193321172](E:\TyporaPages\image-20250507193321172.png)
+<img width="536" height="292" alt="image-20250507193321172" src="https://github.com/user-attachments/assets/8354add9-3425-43e1-880f-2638f8a83469" />
+
 
 # 64.索引
 
@@ -984,7 +1000,8 @@ select cuurent_date();
 - create index 索引名 on 表名(字段)
 - 如果字段为字符串，需要写明创建表字段的时候字符串的长度
 
-![image-20250507193949005](E:\TyporaPages\image-20250507193949005.png)
+<img width="616" height="145" alt="image-20250507193949005" src="https://github.com/user-attachments/assets/0e7337ec-ad6b-4249-9701-a22669d166d8" />
+
 
 
 
@@ -994,7 +1011,8 @@ select cuurent_date();
 
 - 不需要显示的写调用索引的语句，只要where条件后面用到的字段建立了索引，那么系统会字段调用
 
-![image-20250507194139794](E:\TyporaPages\image-20250507194139794.png)
+<img width="561" height="212" alt="image-20250507194139794" src="https://github.com/user-attachments/assets/a8ee7aeb-e600-4a97-8d6e-643dde69d17a" />
+
 
 
 
@@ -1077,6 +1095,7 @@ create database mytest dafault charset utf8;
 drop database mytest;
 drop database if exists mytest;
 ```
+
 
 
 
